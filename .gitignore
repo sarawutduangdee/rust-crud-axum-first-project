@@ -1,0 +1,22 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+
+# Cargo specific
+Cargo.lock     # (ถ้าเป็น binary crate ใส่ไว้, ถ้าเป็น library crate อาจไม่ใส่)
+.cargo/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
